@@ -1,8 +1,8 @@
 # Arrays of objects
 ## simple quiz
 
-1. String[] names = new String[10]
-   Which of the following statements puts a reference to the String "Hello" in the last cell of the array?
+1. String[] names = new String[10] <br/>
+   배열의 마지막 셀에 "Hello"가 반환되는 방법은?
 
 -[ ] A. names[0] = "Hello";
 -[ ] B. names[10] = "Hello";
@@ -10,8 +10,8 @@
 -[ ] D. String[ names.length-1 ] = "Hello";
 
 2. String[] names = new String[10];
-   and that further statements (not shown) have put String references into some of the cells.
-   Which of the following fragments prints out every String, but skips null references?
+<br/> null 참조를 건너뛰고 모든 String을 출력하는 방법은?
+
 -[ ] A. 
 for (int j = 0; names[j] != null; j++) <br/>
 System.out.println(names[j]);
@@ -25,5 +25,3 @@ System.out.println(names[j]);
 for (int j = 0; j < names.length; j++) <br/>
 if(names[j] != null)
 System.out.println(names[j]);
-
-3. 3rd

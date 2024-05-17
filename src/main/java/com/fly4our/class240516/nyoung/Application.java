@@ -13,7 +13,7 @@ public class Application /*스캐너로 로그인, 회원가입, 프로그램 �
         System.out.println("2. 회원가입");
         // System.out.println("3. 회원 정보 보기(admin)");
         System.out.println("9. 프로그램 종료");
-        int no = sc.nextInt()
+        int no = sc.nextInt();
 
         switch (sc.nextInt()) {
             case 1 : ; break;

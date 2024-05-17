@@ -18,4 +18,8 @@ public class Question02 {
 //for (int j = 0; j < names.length; j++) <br/>
 //            if(names[j] != null)
 //            System.out.println(names[j]);
+
+    public static void main(String[] args) {
+
+    }
 }
